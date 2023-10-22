@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <title>灌籃高手-Basketball</title>
+  <link href="./ba.jpg" rel="icon" type="imge/jpg">
+  <link rel="stylesheet" href="./navBar.css">
+  <link rel="stylesheet" href="./photos.css">
+  <link rel="stylesheet" href="./tap.css">
+
+  <style>
+
+    /* 設定body整頁無縫隙與設定背景色*/
+
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: blanchedalmond;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 最上方之圖片 -->
+  <div class="logo-photo">
+  
+    <img src="./photo/湘北4.jpg" style="float: left" width="520px"></img>
+    <img src="./photo/導覽.jpg" style="float: left" width="520px"></img>
+    <img src="./photo/湘北-1.jpg" style="float: left" width="520px"></img>
+    <img src="./photo/電影.webp" style="float: left" width="520px"></img>
+  
+</div>
+
+<!-- 導覽列 -->
+
+  <div class="main">
+    <h3 style="font-size: 30px; font-family: initial; color: rgb(245, 220, 122);" >灌  籃  高  手<br>SLAM DUNK </h3>
+    <nav>
+      <ul class="navBar">
+        <li><a href="./專題.html">回到首頁</a></li>
+
+        <div class="dropdown">
+          <li><a class="dropbtn" href="../小專/角色導覽/導覽.html">角色導覽</a></li>
+
+
+          <div class="dropdown-content">
+            <a href="../小專/角色導覽/導覽.html">湘北隊</a>
+            <a href="../小專/角色導覽/陵南.html">陵南隊</a>
+            <a href="../小專/角色導覽/海南.html">海南隊</a>
+            <a href="../小專/角色導覽/翔陽.html">翔陽隊</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown">
+          <li><a class="dropbtn" href="../角色介紹/介紹.html">角色介紹</a></li>
+
+
+          <div class="dropdown-content">
+            <a href="../小專/角色介紹/介紹.html">湘北隊員</a>
+            <a href="../小專/角色介紹/陵南隊員.html">陵南隊員</a>
+            <a href="../小專/角色介紹/海南隊員.html">海南隊員</a>
+            <a href="../小專/角色介紹/翔陽隊員.html">翔陽隊員</a>
+          </div>
+        </div>
+
+        <li><a href="../小專/故事主軸/主軸.html">故事主軸</a></li>
+        <li><a href="../小專/電影/電影.html">灌籃高手電影</a></li>
+        <li><a href="../小專/遊戲介紹/遊戲.html">灌籃高手遊戲</a></li>
+      </ul>
+    </nav>
+    <!-- 音樂播放 -->
+    <audio controls>
+      <source src="./【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/ogg">
+      <source src="./【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/mpeg">
+
+    </audio>
+    
+  </div>
+
+  <br><br>
+  <!-- 故事介紹 -->
+  <div class="tab">
+    <button class="tablinks" onclick="openStory(event, 'summary')">概要</button>
+    <button class="tablinks" onclick="openStory(event, 'story background')">故事</button>
+  </div>
+  <div id="summary" class="tabcontent" style="display: none;">
+    <h1 style="text-decoration: underline;"> 概要 :</h1>
+    <p>籃球漫畫以不良少年櫻木花道的挑戰和成長為中心。作品中的「湘北」高中是虛構的，取材背景為日本神奈川縣的湘南地區。
+        1994年獲得第40屆小學館漫畫獎少年部門。在2006年由文化廳主辦的日本文化廳媒體藝術祭「日本媒體藝數百選」中，在漫畫類別中獲得第一名。
+        根據《DA VINCI》研究共有808位漫畫家、評論家、書店店員和讀者入選，並在50年的漫畫歷史中位居漫畫排行榜的第一位。
+        2001年發行的完全版漫畫，是集英社第一套的完全版漫畫。該書第21冊～第23冊的第一版發行量為252萬本，是當時的最高記錄。
+        截至2013年2月的累計發行量已超過1億2029萬。《灌籃高手》的漫畫原作在1996年（27號）結束。
+        在後續主角們會和名朋工業高校、愛和學院高校、大榮學園高校比賽，最後輸給愛和學院高校。井上在結束時評論說：「如果不在應該結束的地方結束的話，對作品來說就是一個不幸。」。
+        關於續集則提出「可能存在」。2004年12月3日，井上為了感謝《灌籃高手》銷售突破一億冊，於日本神奈川縣立三崎高中廢校舍舉行三日「灌籃高手售出一億冊紀念FINAL EVENT」活動。 
+        利用四天用粉筆劃23塊教室的黑板，描述全國大賽十天之後的情形與角色的後續發展， 2009年4月以「灌籃高手十日後」完全版發售。2018年6月1日「新裝再製版」發行。
+        2021年1月7日井上自己的推特發表新的《灌籃高手》動畫電影。
+        2021年4月1日東映動畫的動畫企劃案中，亦包含《灌籃高手》的動畫電影版，暫定片名為《SLAM DUNK スラムダンク 30週年紀念アニメーション映画》。2022年7月公布正式片名為《灌籃高手 THE FIRST SLAM DUNK》。</p>
+  </div>
+  <div id="story background" class="tabcontent" style="display: none;">
+    <h1 style="text-decoration: underline;"> 故事 :</h1>
+    <p>櫻木花道在第50次告白失敗中渡過國中三年，並開始討厭籃球。
+        但櫻木升上湘北高中一年級第一天，為討好同年級暗戀對象赤木晴子的歡心，毫無籃球基礎的他未經考慮就加入籃球隊；
+        晴子卻迷戀從初中起就一直是明星球員的流川楓。
+        櫻木的潛力、身體素質加上不服輸的個性，憑著驚人的毅力，進步神速，逐漸從原本的籃球門外漢成長為湘北高中籃球隊不可缺的主力球員。
+        同一時期，國中就已是明星球員的流川楓也加入湘北高中籃球隊，原屬意要出國打球，但在安西教練指點下，決定先成為「日本第一」的高中籃球員。</p>
+  </div>
+  <script>
+    function openStory(evt, storyName) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i =0; i < tabcontent.length; i++) {
+            tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablinks");
+        for (i =0; i < tablinks.length; i++) {
+            tablinks[i].className = tablinks[i].className.replace(" active", "");
+        }
+        document.getElementById(storyName).style.display = "block";
+        evt.currentTarget.className += " active";
+    }
+  </script>
+  <br><br><br>
+  <hr style="border-top: 4px solid skyblue; border-radius: 5px;">
+<!-- 照片呈現 -->
+  <div class="h">
+    <p style="font-weight: 800;">"以下為主要角色之圖片"</p>
+</div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="./photo/湘北.jpg"> <!--照片另外打開-->
+        <img src="./photo/湘北.jpg" alt="#" width="600px" height="400px">
+      </a>
+      <div class="desc" style="font-size: 30px;">主要角色</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="./photo/各隊1.jpg"> <!--照片另外打開-->
+        <img src="./photo/各隊1.jpg" alt="#" width="600px" height="400px">
+      </a>
+      <div class="desc" style="font-size: 30px;">各隊要角</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="./photo/湘北-2.jpg"> <!--照片另外打開-->
+        <img src="./photo/湘北-2.jpg" alt="#" width="600px" height="400px">
+      </a>
+      <div class="desc" style="font-size: 30px;">湘北隊</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="./photo/陵南.jpg"> <!--照片另外打開-->
+        <img src="./photo/陵南.jpg" alt="#" width="600px" height="400px">
+      </a>
+      <div class="desc" style="font-size: 30px;">陵南隊</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="./photo/海南隊.jpg"> <!--照片另外打開-->
+        <img src="./photo/海南隊.jpg" alt="#" width="600px" height="400px">
+      </a>
+      <div class="desc" style="font-size: 30px;">海南隊</div>
+    </div>
+  </div>
+
+  <div class="responsive">
+    <div class="gallery">
+      <a target="_blank" href="./photo/翔陽.jpg"> <!--照片另外打開-->
+        <img src="./photo/翔陽.jpg" alt="#" width="600px" height="400px">
+      </a>
+      <div class="desc" style="font-size: 30px;">翔陽隊</div>
+    </div>
+  </div>
+
+
+<br><br>
+
+<div class="clearfix"></div>
+
+</body>
+
+</html>
