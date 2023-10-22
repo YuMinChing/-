@@ -1,0 +1,136 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>湘北隊與相關角色導覽</title>
+    <link href="../ba.jpg" rel="icon" type="imge/jpg">
+    <link rel="stylesheet" href="../navBar.css">
+    <link rel="stylesheet" href="./slider_container.css">
+
+
+</head>
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        background-color: seashell;
+    }
+</style>
+
+<body>
+    <div class="logo-photo">
+        <!-- <a href="#" class="logo"> -->
+        <img src="../photo/湘北4.jpg" style="float: left" width="500px"></img>
+        <img src="../photo/導覽.jpg" style="float: left" width="500px"></img>
+        <img src="../photo/湘北-1.jpg" style="float: left" width="500px"></img>
+        <img src="../photo/電影.webp" style="float: left" width="500px"></img>
+        <!-- </a> -->
+    </div>
+
+    <!-- 導覽列 -->
+    <div class="main">
+        <h3 style="font-size: 30px; font-family: initial; color: rgb(245, 220, 122);">灌 籃 高 手<br>SLAM DUNK </h3>
+
+        <nav>
+            <ul class="navBar">
+                <li><a href="../專題.html">回到首頁</a></li>
+
+                <div class="dropdown">
+                    <li><a class="dropbtn" href="./導覽.html">角色導覽</a></li>
+
+
+                    <div class="dropdown-content">
+                        <a href="./導覽.html">湘北隊</a>
+                        <a href="./陵南.html">陵南隊</a>
+                        <a href="./海南.html">海南隊</a>
+                        <a href="./翔陽.html">翔陽隊</a>
+                    </div>
+                </div>
+
+
+                <div class="dropdown">
+                    <li><a class="dropbtn" href="../角色介紹/介紹.html">角色介紹</a></li>
+
+
+                    <div class="dropdown-content">
+                        <a href="../角色介紹/介紹.html">湘北隊員</a>
+                        <a href="../角色介紹/陵南隊員.html">陵南隊員</a>
+                        <a href="../角色介紹/海南隊員.html">海南隊員</a>
+                        <a href="../角色介紹/翔陽隊員.html">翔陽隊員</a>
+                    </div>
+                </div>
+
+                <li><a href="../故事主軸/主軸.html">故事主軸</a></li>
+                <li><a href="../電影/電影.html">灌籃高手電影</a></li>
+                <li><a href="../遊戲介紹/遊戲.html">灌籃高手遊戲</a></li>
+            </ul>
+        </nav>
+        <audio controls>
+            <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/ogg">
+            <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/mpeg">
+        </audio>
+
+    </div>
+    <!-- 照片輪播 -->
+
+    <div class="slider_containertwo"> <!-- 分成兩個輪播照片 -->
+        <div class="slider_container">
+            <div>
+                <img src="../photo/赤木.jpg" width="400px" height="300px">
+                <span class="info">湘北-隊長-赤木剛憲</span>
+            </div>
+            <div>
+                <img src="../photo/木暮.jpg" width="400px" height="300px">
+                <span class="info">湘北-副隊長-木暮公延</span>
+            </div>
+            <div>
+                <img src="../photo/宮城.jpg" width="400px" height="300px">
+                <span class="info">湘北-控球後衛-宮城良田</span>
+            </div>
+            <div>
+                <img src="../photo/櫻木.png" width="400px" height="300px">
+                <span class="info">湘北-前鋒-櫻木花道</span>
+            </div>
+            <div>
+                <img src="../photo/流川楓.png" width="400px" height="300px">
+                <span class="info">湘北-前鋒-流川楓</span>
+            </div>
+            <div>
+                <img src="../photo/三井.jpeg" width="400px" height="300px">
+                <span class="info">湘北-得分後衛-三井壽</span>
+            </div>
+        </div>
+
+        <div class="slider_container">
+            <div>
+                <img src="../photo/安西.jpg" width="400px" height="300px">
+                <span class="info">湘北隊教練-安西教練</span>
+            </div>
+            <div>
+                <img src="../photo/彩子.jpeg" width="400px" height="300px">
+                <span class="info">湘北隊經理-彩子</span>
+            </div>
+            <div>
+                <img src="../photo/安田.webp" width="400px" height="300px">
+                <span class="info">湘北-控球後衛-安田靖春</span>
+            </div>
+            <div>
+                <img src="../photo/潮崎.jpg" width="400px" height="300px">
+                <span class="info">湘北-後衛-潮崎哲士</span>
+            </div>
+            <div>
+                <img src="../photo/角田.jpeg" width="400px" height="300px">
+                <span class="info">湘北-中鋒-角田悟</span>
+            </div>
+            <div>
+                <img src="../photo/晴子.jpeg" width="400px" height="300px">
+                <span class="info">湘北隊長之妹-赤木晴子</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
