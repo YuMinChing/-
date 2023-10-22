@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>灌籃高手-遊戲</title>
+  <link href="../ba.jpg" rel="icon" type="imge/jpg">
+  <link rel="stylesheet" href="../navBar.css">
+  <script src="https://cdn.staticfile.org/jquery/1.10.2/jquery.min.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    background-color: blanchedalmond;
+  }
+
+table {
+  border-collapse: collapse;
+}
+
+table,
+th,
+td {
+  border: 5px solid darkblue;
+}
+
+th {
+  color: darkmagenta;
+  font-size: 80px;
+}
+ 
+ .j {
+  color: yellowgreen;
+  font-size: 35px;
+ }
+
+ 
+</style>
+
+<body>
+  <div class="logo-photo">
+  <!-- <a href="#" class="logo" style=" padding: 0;"> -->
+    <img src="../遊戲介紹/照片/介紹3.webp" style="float: left" width="500px"></img>
+    <img src="../遊戲介紹/照片/介紹2.webp" style="float: left" width="500px"></img>
+    <img src="../遊戲介紹/照片/介紹1.webp" style="float: left" width="500px"></img>
+    <img src="../遊戲介紹/照片/介紹.webp" style="float: left" width="500px"></img>
+    <img src="../遊戲介紹/照片/介紹4.webp" style="float: left" width="500px"></img>
+  <!-- </a> -->
+</div>
+
+  <!-- 導覽列 -->
+  <div class="main">
+    <h3 style="font-size: 30px; font-family: initial; color: rgb(245, 220, 122);">灌  籃  高  手<br>SLAM DUNK </h3>
+    <nav>
+      <ul class="navBar">
+        <li><a href="../專題.html">回到首頁</a></li>
+
+        <div class="dropdown">
+          <li><a class="dropbtn" href="../角色導覽/導覽.html">角色導覽</a></li>
+
+          <div class="dropdown-content">
+            <a href="../角色導覽/導覽.html">湘北隊</a>
+            <a href="../角色導覽/陵南.html">陵南隊</a>
+            <a href="../角色導覽/海南.html">海南隊</a>
+            <a href="../角色導覽/翔陽.html">翔陽隊</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown">
+          <li><a class="dropbtn" href="../角色介紹/介紹.html">角色介紹</a></li>
+
+
+          <div class="dropdown-content">
+            <a href="../角色介紹/介紹.html">湘北隊員</a>
+            <a href="../角色介紹/陵南隊員.html">陵南隊員</a>
+            <a href="../角色介紹/海南隊員.html">海南隊員</a>
+            <a href="../角色介紹/翔陽隊員.html">翔陽隊員</a>
+          </div>
+        </div>
+
+        <li><a href="../故事主軸/主軸.html">故事主軸</a></li>
+        <li><a href="../電影/電影.html">灌籃高手電影</a></li>
+        <li><a href="../遊戲介紹/遊戲.html">灌籃高手遊戲</a></li>
+      </ul>
+    </nav>
+    <audio controls>
+      <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3"
+        type="audio/ogg">
+      <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+  <br>
+
+  <!-- 遊戲內容敘述 -->
+<table>
+  <!-- &ensp;為空白 -->
+  <tr>
+  <th colspan="4"> 遊&ensp;戲&ensp;介&ensp;紹 </th>
+  <!-- <th></th>
+  <th></th>
+  <th></th> -->
+</tr>
+<tr>
+  <td><img src="./照片/介紹5.webp" width="500px" height="400px"></td>
+  <td class="j">遊戲首頁 ─ 打開APP後，進行緩衝以後進入畫面，此畫面為遊戲首頁可以進行多項選擇(遊戲模式&配對、購買相關技能等...)。</td>
+  <td><img src="./照片/介紹.jpg" width="500px" height="400px"></td>
+  <td class="j">角色選擇─遊戲配對完成，進行角色選擇，依照喜好選擇遊戲角色，球員選擇有預設也可以自行利用代幣或是遊戲獎勵進行購買。</td>
+</tr>
+<tr>
+  <td><img src="./照片/介紹1.jpg" width="500px" height="400px" ></td>
+  <td class="j">遊戲準備開始 ─ 選角完成後，進入遊戲，並由電腦篩選跳球人員，於中間進行跳球確認球權。</td>
+  <td><img src="./照片/介紹2.jpg" width="500px" height="400px"></td>
+  <td class="j">遊戲進行中畫面 ─ 跳完球後比較開始，兩隊進行對戰，一場比賽有時間與進攻時間限制，時間終了前分數較多者為勝利方。</td>
+</tr>
+<tr>
+  <td><img src="./照片/介紹3.jpg" width="500px" height="400px"></td>
+  <td class="j">訓練模式 ─ 可以依照球員之技能進行訓練，以提升能力並在比賽中加以運用。</td>
+  <td><img src="./照片/介紹4.jpg" width="500px" height="400px" ></td>
+  <td class="j">賽季畫面 ─ 依照各季推出不同賽季，可以與線上玩家進行對戰，分成個人排位賽與組隊排位賽。</td>
+</tr>
+<tr>
+  <td class="g"><img src="./照片/介紹10.jpg" width="500px" height="400px"></td>
+  <td class="j">對戰模式 ─ 進行遊戲前自行挑選想挑戰的球賽模式，再進行遊戲的配對，但不是所有模式都是全天候開放，會依照不同時段進行開放。</td>
+  <td class="g"><img src="./照片/介紹6.jpg" width="500px" height="400px"></td>
+  <td class="j">比賽模式 ─ 球賽分成四種模式進行比賽，此模式為一對一的模式，可以依個人喜愛進行遊戲。</td>
+</tr>
+<tr>
+  <td class="g"><img src="./照片/介紹9.jpg" width="500px" height="400px"></td>
+  <td class="j">角色購買 ─ 進入商店的畫面，可以進行角色的購買，各個球員因時段不同會推出限時免費供玩家選擇，也可以自行購買永久使用。</td>
+  <td class="g"><img src="./照片/介紹.png" width="500px" height="400px"></td>
+  <td class="j">限時活動 ─ 遊戲會因為各節日推出不同限時活動進行玩家挑戰，每項活動的獎勵皆不相同。</td>
+</tr>
+<tr>
+  <td class="g"><img src="./照片/介紹7.jpg" width="500px" height="400px"></td>
+  <td class="j">球員技能 ─ 玩家本身所擁有的球員，可以依照所獲取的道具進行球員技能提升，每個球員的技能不同，故每個球員皆有自己的球員訓練卡供玩家獲得。</td>
+  <td class="g"><img src="./照片/介紹9.jpg" width="500px" height="400px"></td>
+  <td class="j">玩家背包 ─ 在玩家的背包中，大部分為遊戲獎勵所獲取，有些則會因時段活動所獲得，或者是玩家自行在商店進行購買。</td>
+</tr>
+ 
+
+</table>
+
+<br><br><br>
+
+</body>
+
+</html>
