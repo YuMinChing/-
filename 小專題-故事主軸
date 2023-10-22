@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>灌籃高手-故事主軸</title>
+    <link href="../ba.jpg" rel="icon" type="imge/jpg">
+    <link rel="stylesheet" href="../navBar.css">
+    <link rel="stylesheet" href="./collapsible.css">
+</head>
+<style>
+  body{
+      margin: 0;
+      padding: 0;
+  }
+
+
+</style>
+<body>
+  <div class="logo-photo">
+  <!-- <a href="#" class="logo"> -->
+    <img src="../photo/湘北4.jpg" style="float: left" width="500px"></img>
+    <img src="../photo/導覽.jpg" style="float: left" width="500px"></img>
+    <img src="../photo/湘北-1.jpg" style="float: left" width="500px"></img>
+    <img src="../photo/電影.webp" style="float: left" width="500px"></img>
+  <!-- </a> -->
+</div>
+
+<!-- 導覽列 -->
+    <div class="main">
+      <h3 style="font-size: 30px; font-family: initial; color: rgb(245, 220, 122);">灌  籃  高  手<br>SLAM DUNK </h3>
+        <nav>
+        <ul class="navBar">
+            <li><a href="../專題.html">回到首頁</a></li>         
+           
+            <div class="dropdown">
+                <li><a class="dropbtn" href="../角色導覽/導覽.html">角色導覽</a></li>
+                
+                
+                <div class="dropdown-content">
+                  <a href="../角色導覽/導覽.html">湘北隊</a>
+                  <a href="../角色導覽/陵南.html">陵南隊</a>
+                  <a href="../角色導覽/海南.html">海南隊</a>
+                  <a href="../角色導覽/翔陽.html">翔陽隊</a>
+                </div>
+              </div> 
+
+
+            <div class="dropdown">
+                <li><a class="dropbtn" href="../角色介紹/介紹.html">角色介紹</a></li>
+                
+                
+                <div class="dropdown-content">
+                  <a href="../角色介紹/介紹.html">湘北隊員</a>
+                  <a href="../角色介紹/陵南隊員.html">陵南隊員</a>
+                  <a href="../角色介紹/海南隊員.html">海南隊員</a>
+                  <a href="../角色介紹/翔陽隊員.html">翔陽隊員</a>
+                </div>
+              </div> 
+
+            <li><a href="../故事主軸/主軸.html">故事主軸</a></li>
+            <li><a href="../電影/電影.html">灌籃高手電影</a></li>
+            <li><a href="../遊戲介紹/遊戲.html">灌籃高手遊戲</a></li>
+        </ul>
+        </nav>
+        <audio controls>
+          <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/ogg">
+          <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/mpeg">   
+      </audio>
+</div>
+
+<!-- 故事介紹(漫畫) -->
+<h1  style="color: red; text-decoration: underline; "> 灌籃高手之故事介紹 :</h1>
+
+<br>
+<button type="button" class="collapsible">入部篇</button>
+<div class="content">
+  <p>櫻木花道在中學時被喜歡籃球部隊員的女生拒絕，因此對籃球產生厭惡，進入湘北高中後，對籃球部隊長的妹妹赤木晴子一見鐘情，因此進入籃球部，入部後，他遇見了同為一年級、晴子所愛慕的流川楓，成為死對頭。雖然一開始籃球部隊長赤木剛憲反對櫻木入部，但看到櫻木不放棄的堅持態度後，答應讓櫻木入部。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">練習比賽：陵南高校篇</button>
+<div class="content">
+  <p>湘北高中的第一場比賽為與陵南高校的練習賽，主將魚住和王牌球員仙道為陵南的主力，湘北高校一年級的先發球員只有流川楓被選上，櫻木對此非常不滿，但安西教練告訴櫻木，他是「隊伍的秘密武器」，讓櫻木十分得意。仙道不負眾望地展現了超高實力，湘北在比賽前半大輸陵南，不過進入比賽後半，赤木與流川的努力，讓分數逐漸追上，但赤木因和魚住相撞導致受傷退場，改由櫻木上場，成為櫻木的第一場比賽，毫無經驗的他，讓兩隊點數差距越來越大，後來赤木回歸，櫻木也首次在比賽中使用「平民投籃」得分，湘北雖一度反敗為勝，最後卻因仙道的猛攻以一分之差而輸球。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">宮城良田、三井壽回歸篇</button>
+<div class="content">
+  <p>陵南練習賽後，因打架而住院的宮城良田回歸隊上，因為他和櫻木一樣一直被女生拒絕，兩人相知相惜成為好友，但此時，和宮城打架而住院的三井壽也出院，帶著一幫不良份子準備打垮湘北籃球部，後來發現，原來三井一年級時也曾隸屬於籃球部。中學時的籃球比賽中，三井因為安西教練的一句「現在放棄，比賽就結束了。」（あきらめたらそこで試合終了ですよ），最後贏得比賽，成為中學MVP，卻在進入湘北籃球隊後因受傷退部，變成不良少年，因為嫉妒宮城和自己相仿的打球天賦，心生忌妒才找碴。最後安西教練出現，看著改變自己的恩師，三井淚流滿面地說出「安西教練，我想打籃球......」（安西先生、バスケがしたいです），也成為本作品的經典台詞之一。後來，三井再度回到湘北高校籃球部。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">高校聯賽預賽：翔陽戰篇</button>
+<div class="content">
+  <p>神奈川縣高中校際預賽中，湘北高校對上翔陽高校，翔陽的成員一出場，4位超過190公分的選手讓湘北相當震撼，因為緊張導致11:0翔陽領先，但在流川指出大家動作僵硬的盲點後，開始追上分數。比賽後半因為櫻木、赤木的努力而轉勝，就在此時翔陽王牌兼教練的藤真健司進入比賽。最後的5分鐘，三井已體力透支，但想起中學時贏得MVP的比賽後又燃起鬥志，連續得分。櫻木因已4次犯規，害怕5犯退場而未發揮實力，在流川的激勵下，成功在比賽中第一次灌籃，可惜因犯規而未得分。最後湘北以 62:60 贏下比賽，經過此役，令三井懊悔了過去兩年的空白期，櫻木搶籃板的天份則開始覺醒。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">高校聯賽預賽：海南戰篇</button>
+<div class="content">
+  <p>戰勝翔陽高校後，湘北對上號稱神奈川縣最強隊伍海南高校。比賽一開始，海南的教練看穿櫻木為籃球新手，加上赤木因傷退場，海南取得領先。在流川努力得分、櫻木死守籃筐之下，上半場湘北與海南同分打平，下半場赤木回歸，強忍腳傷發揮實力，讓湘北首次領先比賽，但因海南高校的牧紳一和神宗一郎的完美合作，讓湘南再次落後。櫻木發揮搶籃板的能力，最後6秒在湘北與海南比分為 88:90 的局面時，櫻木誤將把對手的高砂一馬認成赤木，傳球失誤後，湘北最後輸球。賽後為了變換心情，以及想表達下場與武里高校比賽的決心，櫻木將頭髮理成了平頭，努力練習投球。雖然在武里高校的比賽，櫻木因過度練習的疲憊睡過頭而錯過比賽，不過憑藉流川、赤木、三井、宮城的努力，最後湘北以 120:92 取得勝利。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">高校聯賽預賽：陵南 vs 海南篇</button>
+<div class="content">
+  <p>陵南高校雖然有著仙道彰、魚住純、福田吉兆三大強手，但是在這場比賽中，因為陵南教練換下福田，派人重點盯著海南高校的神宗一郎，而魚住又因犯規無法上場，仙道雖然努力將比賽拖進了延長賽，卻因少了魚住的力量，陵南最終還是輸了此比賽。然而此時，安西教練突然倒下住院，因此下一場湘北對上陵南的比賽，安西教練將缺席。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">高校聯賽預賽：湘北 vs 陵南篇</button>
+<div class="content">
+  <p>湘北高校與陵南高校的比賽中，赤木因為太在意於海南戰造成的腳傷，無法專心比賽，加上安西教練缺席，湘北陷入劣勢。但比賽後半場流川覺醒，開始快速得分，魚住為了阻止櫻木灌籃而犯規4次，被迫退場至板凳待機，但赤木也已4犯，加上三井體力不支倒地，湘北再次陷入危機。比賽的最後關鍵，櫻木成功阻擋魚住、仙道、福田進球，自己也灌籃進球，給了陵南致命的一擊，最後湘北成功以 76:66 贏球，取得神奈川縣第2名，晉級全國大賽。
+    比賽後，流川向安西教練表示想到美國留學，但安西過去在大學任教時的學生去美國後，經不起壓力而身亡，因此安西極力阻止流川，盼他成為「日本第一的高中生」，赤木受到日本第一體育大學「深體大」的邀請，表示如果赤木若能在全國賽中得到前8名，即可入學。湘北高校與靜岡的常城高校進行合宿練習，最後一勝一敗，打成平手，櫻木則被安西教練留在湘北高校進行2萬次的投籃特訓。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">練習比賽：湘北 vs 翔陽・陵南篇（動畫原創內容）</button>
+<div class="content">
+  <p>全國大賽開始前，湘北、翔陽、陵南進行練習賽。翔陽與陵南的主要參加球員有翔陽的藤真、陵南的仙道、福田、魚住，魚住輸掉高校聯賽預賽後選擇引退，並開始參加廚師培訓，但為了和赤木分出勝負，中途參賽，並表示這將是他的最後一場比賽。櫻木在比賽中發揮了2萬次投籃特訓的成果，用過去不擅長的「Jump Shoot」（跳射入球）進了3球，並在最後用灌籃讓湘北贏得了比賽。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">全國大賽：湘北 vs 豐玉（只有漫畫版）</button>
+<div class="content">
+  <p>比賽前半場，豐玉使用「Run＆Gun」（跑轟戰術）領先湘北，流川的左眼又被主將南烈打傷，讓視野不清楚的流川無法辨認球的所在位置，處在劣勢。安西教練決定硬碰硬，採取和豐玉一樣的跑轟戰術，只剩單眼視野的流川憑體感上籃，得了不少分數，櫻木也發揮特訓的成果，成功在中距離投籃得分，三井也得了不少三分球，流川則故意讓南烈犯規，得到了灌籃的分數以及罰球的2分，櫻木持續死守籃板球，加上多次進中距離投籃得分，最後湘北以 91:87 贏得勝利。</p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<button type="button" class="collapsible">全國大賽：湘北 vs 山王（只有漫畫版）</button>
+<div class="content">
+  <p>在與山王工業的比賽中，流川被山王的王牌澤北榮治所壓制，澤北被稱為是全日本最強的高中生，擁有最高的球技以及超高得分能力，赤木則被山王的主將河田雅史壓制，湘北在前半場處在極度劣勢的情況，但此時陵南的魚住說出了「河田是鯛魚（是道主菜），赤木是比目魚（只能做配菜）。」的經典台詞，意指即使赤木個人贏不了河田，只要做出能讓湘北勝利的狀況就好。另一方面，櫻木受到身材高大的河田弟弟美紀男阻擋，無法順利搶到籃板，所幸櫻木後來看破美紀男的弱點，成功投籃得分。雖然一開始湘北被領先了24分之多，但經過隊員們的努力，加上三井的三分球，讓兩隊的得分差距越來越小，但櫻木卻為救球而摔傷脊背。比賽中的最後一球，本來就很少傳球的流川，竟然將球傳給了櫻木，櫻木也不負眾望地將球投進籃筐中，讓湘北成功以 79:78 的一分之差獲得勝利，櫻木也和死對頭流川進行無聲的擊掌，成為本作的最經典畫面。不過，戰勝山王的湘北卻在下場與愛和學院的比賽中，因精疲力盡而輸了比賽，無法進入八強（漫畫中只用文字說明，並無詳細描述）。
+    全國賽後，櫻木因傷於醫院進行復健，流川被選為日本國青隊，赤木雖然先前被深體大邀約，但未達成全國八強的條件，選擇和木暮一起引退，準備大學考試，宮城因為赤木的引退，成為湘北的新籃球隊隊長，三井則成為湘北三年級唯一一個沒有引退的成員，但因為成績不佳，打算透過冬天的徵選比賽來得到推薦的機會，晴子成了新的湘北籃球隊經理，《灌籃高手》就此畫下稍微不完美的結局。
+    </p>
+</div>
+<!-- 分隔線 -->
+<hr style="border-top: 4px solid darkseagreen; border-radius: 5px;">
+<script>
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>
