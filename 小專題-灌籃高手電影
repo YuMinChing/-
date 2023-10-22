@@ -1,0 +1,196 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>灌籃高手-電影</title>
+  <link href="../ba.jpg" rel="icon" type="imge/jpg">
+  <link rel="stylesheet" href="../navBar.css">
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: lightblue;
+    }
+
+
+    a {
+      text-decoration: none;
+      display: inline-block;
+      padding: 8px 16px;
+    }
+
+
+    .previous {
+      background-color: #f1f1f1;
+      color: black;
+    }
+
+    .next {
+      background-color: #04AA6D;
+      color: white;
+    }
+
+    #ddv {
+      background-color: blanchedalmond;
+      color: #04AA6D;
+      font-size: 25px;
+    }
+
+    .ci {
+      text-align: center;
+    }
+  </style>
+
+</head>
+
+
+
+<div class="logo-photo">
+  <!-- <a href="#" class="logo" > -->
+  <img src="../photo/湘北4.jpg" style="float: left" width="500px"></img>
+  <img src="../photo/導覽.jpg" style="float: left" width="500px"></img>
+  <img src="../photo/湘北-1.jpg" style="float: left" width="500px"></img>
+  <img src="../photo/電影.webp" style="float: left" width="500px"></img>
+  <!-- </a> -->
+</div>
+
+<!-- 導覽列 -->
+<div class="main">
+  <h3 style="font-size: 30px; font-family: initial; color: rgb(245, 220, 122);">灌 籃 高 手<br>SLAM DUNK </h3>
+  <nav>
+    <ul class="navBar">
+      <li><a href="../專題.html">回到首頁</a></li>
+
+      <div class="dropdown">
+        <li><a class="dropbtn" href="../角色導覽/導覽.html">角色導覽</a></li>
+
+        <div class="dropdown-content">
+          <a href="../角色導覽/導覽.html">湘北隊</a>
+          <a href="../角色導覽/陵南.html">陵南隊</a>
+          <a href="../角色導覽/海南.html">海南隊</a>
+          <a href="../角色導覽/翔陽.html">翔陽隊</a>
+        </div>
+      </div>
+
+
+      <div class="dropdown">
+        <li><a class="dropbtn" href="../角色介紹/介紹.html">角色介紹</a></li>
+
+
+        <div class="dropdown-content">
+          <a href="../角色介紹/介紹.html">湘北隊員</a>
+          <a href="../角色介紹/陵南隊員.html">陵南隊員</a>
+          <a href="../角色介紹/海南隊員.html">海南隊員</a>
+          <a href="../角色介紹/翔陽隊員.html">翔陽隊員</a>
+        </div>
+      </div>
+
+      <li><a href="../故事主軸/主軸.html">故事主軸</a></li>
+      <li><a href="../電影/電影.html">灌籃高手電影</a></li>
+      <li><a href="../遊戲介紹/遊戲.html">灌籃高手遊戲</a></li>
+    </ul>
+  </nav>
+  <audio controls>
+    <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/ogg">
+    <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/mpeg">
+  </audio>
+
+</div>
+
+<br><br>
+<!-- 影片嵌入 -->
+<a id="show" href="#" class="previous">&laquo; 預告片呈現 </a>
+<a id="hide" href="#" class="next"> 預告片隱藏 &raquo; </a>
+<div id="vid" class="ci" style="display: none;">
+  <iframe width="930" height="523" src="https://www.youtube.com/embed/cxVo8S7Rju4"
+    title="《灌籃高手 THE FIRST SLAM DUNK》正式預告 2023.01.13 稱霸全國" frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen></iframe>
+</div>
+<br>
+
+<script>
+
+
+  // 故事隱藏鍵function
+
+  $(document).ready(function () {
+    $('#rr').click(function () {
+      $('#ddv').hide();
+    })
+  })
+
+  //  故事可重複開啟function
+
+  $(document).ready(function () {
+    $('#vss').click(function () {
+      $('#ddv').show();
+    })
+  })
+
+  // 預告片呈現與隱藏function(總共兩張)
+
+  $(document).ready(function () {
+    $("#hide").click(function () {
+      $("#vid").hide();
+    });
+    $("#show").click(function () {
+      $("#vid").show();
+    });
+
+  })
+
+
+</script>
+
+
+
+<br>
+
+<hr style="border-top: 3px solid yellow; border-radius: 3px;">
+<!-- 電影內容敘述 -->
+
+<br>
+<a id="vss" class="previous">電影故事介紹</a>
+<a id="rr" href="#" class="next"> 電影故事隱藏 </a>
+<br><br>
+
+<div id="ddv" style="display: none;">
+  <p>
+    本作以湘北籃球隊的主力控球後衛宮城良田為第一視角敘事，
+    並以漫畫原作中在IH全國大賽湘北高中對戰日本高校籃壇第一強隊山王工業的賽事為故事主軸，穿插良田的過去。
+    良田的故鄉在沖繩縣，有一個哥哥宗太和一個妹妹安娜。
+    宗太在國中時期是一名籃球好手，在哥哥的影響下，良田也開始對籃球充滿興趣。
+    父親去世後，宗太成為家裡的支柱並扶持母親薰，但宗太後來於海難中喪生。
+    良田無比想念哥哥，於是決定穿著一件和哥哥相同背號的球衣繼續打球。但是良田身材矮小，球技亦不如哥哥，在學校的比賽中失利。
+    薰也因為長子的死而心碎，帶著良田和妹妹搬家到神奈川縣。
+    在對山王的比賽中，湘北於上半場與對手打得不相上下，比數相當接近。但在下半場開始時，山王發揮實力，良田遭到對手採用二人防守針對，因為身材差距而難以脫困。
+    湘北的中鋒赤木剛憲與山王的河田雅史相比落居下風，小前鋒流川楓也難以防守或突破日本第一的高中生澤北榮治。比賽節奏一面倒向山王，山王一度領先達24分。
+    搬到神奈川縣後，良田就讀國中，在班上沒有朋友，只是一個人練球，並一度巧遇日後湘北的隊友三井壽。
+    高中時良田就讀湘北高中，並加入籃球隊。赤木對良田寄予厚望，但自我沉淪成為不良少年的三井不以為然，找良田打架。
+    打架結果兩敗俱傷，良田鬱悶騎車時發生車禍，勉強撿回一命，母親受到很大的打擊。之後和到球隊鬧事完，將頭髮剪短髮展現決心歸隊的三井盡釋前嫌。
+    山王大幅領先的情況下，湘北透過暫停重整士氣，湘北大前鋒櫻木花道在教練安西光義的指點下，發揮能耐幫助隊友縮小比數。
+    全國大賽前，良田回到故鄉，翻看哥哥留在山洞中的東西時，想起哥哥曾立志要在高中籃壇贏過山王，並發洩了內心的感情。
+    良田也寫了一封信給母親，反省自己只會惹母親生氣，並說明籃球是哥哥亡故後支撐他活下去的唯一事物，感謝母親讓他繼續打籃球。
+    在最後兩分鐘，山王僅領先5分。最後半分鐘時差距來到1分，負傷的櫻木阻斷了澤北的得分，並傳球使流川得分。
+    然而澤北馬上在最後10秒穩穩投進一球，扳回比數。面對湘北最後的進攻機會，山王嚴密防守，流川最後一刻準備出手時注意到一旁空檔的櫻木，而將球傳給了他。
+    櫻木在比賽結束前原地跳投，球進，以一分之差湘北擊敗山王。
+    比賽結束後，良田前往海邊，向在那裡等的母親說「我回來了」。
+    數年後，澤北和良田都來到美國打籃球，兩人此時同為控球後衛，準備在比賽中一分高下。</p>
+</div>
+
+<br><br><br>
+
+</body>
+
+
+
+</html>
