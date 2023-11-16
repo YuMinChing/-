@@ -1,0 +1,238 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>灌籃高手-湘北角色介紹</title>
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+  <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+  <link href="../ba.jpg" rel="icon" type="imge/jpg">
+  <link rel="stylesheet" href="../navBar.css">
+</head>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bnn {
+    display: flex;
+    padding: 20px 36px;
+    margin: 30px 28px;
+  }
+
+  button {
+    padding: 22px 20px;
+    margin: 30px 40px;
+    font-size: 20px;
+    border-color: tan;
+    border: 10%;
+  }
+</style>
+
+
+<body>
+  <div class="logo-photo">
+  <!-- <a href="#" class="logo"> -->
+    <img src="../photo/湘北4.jpg" style="float: left" width="500px"></img>
+    <img src="../photo/導覽.jpg" style="float: left" width="500px"></img>
+    <img src="../photo/湘北-1.jpg" style="float: left" width="500px"></img>
+    <img src="../photo/電影.webp" style="float: left" width="500px"></img>
+  <!-- </a> -->
+  </div>
+<!-- 導覽列 -->
+  <div class="main">
+    <h3 style="font-size: 30px; font-family: initial; color: rgb(245, 220, 122);">灌  籃  高  手<br>SLAM DUNK </h3>
+    <nav>
+      <ul class="navBar">
+        <li><a href="../專題.html">回到首頁</a></li>
+
+        <div class="dropdown">
+          <li><a class="dropbtn" href="../角色導覽/導覽.html">角色導覽</a></li>
+
+
+          <div class="dropdown-content">
+            <a href="../角色導覽/導覽.html">湘北隊</a>
+            <a href="../角色導覽/陵南.html">陵南隊</a>
+            <a href="../角色導覽/海南.html">海南隊</a>
+            <a href="../角色導覽/翔陽.html">翔陽隊</a>
+          </div>
+        </div>
+
+
+        <div class="dropdown">
+          <li><a class="dropbtn" href="./介紹.html">角色介紹</a></li>
+
+
+          <div class="dropdown-content">
+            <a href="./介紹.html">湘北隊員</a>
+            <a href="./陵南隊員.html">陵南隊員</a>
+            <a href="./海南隊員.html">海南隊員</a>
+            <a href="./翔陽隊員.html">翔陽隊員</a>
+          </div>
+        </div>
+
+        <li><a href="../故事主軸/主軸.html">故事主軸</a></li>
+        <li><a href="../電影/電影.html">灌籃高手電影</a></li>
+        <li><a href="../遊戲介紹/遊戲.html">灌籃高手遊戲</a></li>
+      </ul>
+    </nav>
+    <audio controls>
+      <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/ogg">
+      <source src="../【灌籃高手片頭曲 - 好想大聲說喜歡你】君が好きだと叫びたい  (mp3cut.net).mp3" type="audio/mpeg">
+    </audio>
+
+  </div>
+<!-- 角色介紹 -->
+<!-- 設定一個function點擊buttom呈現dialog之內容，Ok與Cancel鍵可以關閉 -->
+<script>
+    $(function () {
+      $('#dialog').dialog({
+        autoOpen: false,
+        modal: true,
+        buttons: {
+          OK: function () {
+            $(this).dialog('close')
+          },
+          Cancel: function () {
+            $(this).dialog('close')
+          }
+        }
+      })
+      $('#bn').click(function () {
+        $('#dialog').dialog('open')
+      })
+    })
+
+    $(function () {
+      $('#dialog1').dialog({
+        autoOpen: false,
+        modal: true,
+        buttons: {
+          OK: function () {
+            $(this).dialog('close')
+          },
+          Cancel: function () {
+            $(this).dialog('close')
+          }
+        }
+      })
+      $('#bn1').click(function () {
+        $('#dialog1').dialog('open')
+      })
+    })
+
+    $(function () {
+      $('#dialog2').dialog({
+        autoOpen: false,
+        modal: true,
+        buttons: {
+          OK: function () {
+            $(this).dialog('close')
+          },
+          Cancel: function () {
+            $(this).dialog('close')
+          }
+        }
+      })
+      $('#bn2').click(function () {
+        $('#dialog2').dialog('open')
+      })
+    })
+
+    $(function () {
+      $('#dialog3').dialog({
+        autoOpen: false,
+        modal: true,
+        buttons: {
+          OK: function () {
+            $(this).dialog('close')
+          },
+          Cancel: function () {
+            $(this).dialog('close')
+          }
+        }
+      })
+      $('#bn3').click(function () {
+        $('#dialog3').dialog('open')
+      })
+    })
+
+    $(function () {
+      $('#dialog4').dialog({
+        autoOpen: false,
+        modal: true,
+        buttons: {
+          OK: function () {
+            $(this).dialog('close')
+          },
+          Cancel: function () {
+            $(this).dialog('close')
+          }
+        }
+      })
+      $('#bn4').click(function () {
+        $('#dialog4').dialog('open')
+      })
+    })
+
+
+  </script>
+  <h1 style="color: crimson; text-decoration: underline; font-size: 55px; padding: 30px;" >湘北隊先發五人介紹 : </h1>
+
+  <div class="bnn">
+    <button id="bn" style="background-color: cornsilk; color: crimson;">&diam; 赤木剛憲 </button>
+    <p></p>
+    <div id="dialog" title="赤木剛憲">
+      <div style="color: sienna;">
+        赤木剛憲，籃球隊的隊長，晴子的哥哥，經常先發五人之一，
+        隊中的位置是中鋒，亦被譽為神奈川縣第一中鋒。</div>
+      <br><br>
+      <img src="../photo/介紹/赤木.jpg" width="200px">
+    </div>
+
+    <button id="bn1" style="background-color: cornsilk; color: crimson;">&diam; 宮城良田 </button>
+    <p></p>
+    <div id="dialog1" title="宮城良田">
+      <div style="color: sienna;">
+        宮城良田湘北高中籃球隊的球員，在隊中的位置是控球後衛。
+        他擁有後衛敏銳的觀察力及迅捷的身手，是先發球員唯一的二年級。</div>
+      <br><br>
+      <img src="../photo/介紹/宮城1.jpg" width="200px" alt="#">
+    </div>
+
+    <button id="bn2" style="background-color: cornsilk; color: crimson;">&diam; 櫻木花道 </button>
+    <p></p>
+    <div id="dialog2" title="櫻木花道">
+      <div style="color: sienna;">
+        櫻木花道湘北高中籃球隊的球員，擁有驚人體能，經常自稱「天才」。
+        櫻木擁有一頭紅髮，經常先發五人之一，隊中的位置是大前鋒。</div>
+      <br><br>
+      <img src="../photo/介紹/櫻木.png" width="200px" alt="#">
+    </div>
+
+    <button id="bn3" style="background-color: cornsilk; color: crimson;">&diam; 流川楓 </button>
+    <p></p>
+    <div id="dialog3" title="流川楓">
+      <div style="color: sienna;">
+        流川楓是湘北高中籃球隊的球員，經常先發五人之一，在隊中的位置是小前鋒。
+        天才型球員，非常認真練習，自我要求嚴格。</div>
+      <br><br>
+      <img src="../photo/介紹/流川楓1.jpg" width="200px" alt="#">
+    </div>
+
+    <button id="bn4" style="background-color: cornsilk; color: crimson;">&diam; 三井壽 </button>
+    <p></p>
+    <div id="dialog4" title="三井壽">
+      <div style="color: sienna;">
+        北高中籃球隊的球員，在隊中的位置是得分後衛。
+        籃球隊的主力隊員之一，擅長三分球投籃。</div>
+      <br><br>
+      <img src="../photo/介紹/三井1.jpg" width="200px" alt="#">
+    </div>
+</body>
+
+</html>
